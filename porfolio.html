@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+        <!--========== UNICONS ==========-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="stylesheet" href="https://boxicons.com.css">
+        <title>Portfolio Alejandro</title>
+</head>
+<body>
+    <canvas width="800" height="800" id="canvas">
+      
+    </canvas>
+    <header class="hero">
+        <!-- Barra de Navegacion -->
+        <nav class="nav">
+            <a href="#">
+                <h2>
+                    <iconify-icon icon="mdi:code" 
+                        style="color: #03f1e9;"
+                        class="logo" 
+                        style="color: white;">
+                    </iconify-icon>
+                </h2>
+            </a>
+
+            <!-- Links -->
+            <ul class="nav__items" id="nav__links">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <iconify-icon icon="ic:baseline-home" style="color: #03f1e9;"></iconify-icon>
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#aboutme" class="nav__link">
+                        <iconify-icon icon="cib:about-me" style="color: #03f1e9;"></iconify-icon>
+                        Acerca De Mi
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">
+                        <iconify-icon icon="dashicons:portfolio" style="color: #03f1e9;"></iconify-icon>
+                        Proyectos
+                    </a>
+                </li>
+            </ul>
+
+            <iconify-icon icon="quill:hamburger" class="hamburguer__icon" id="hamburguer" style="color: #03f1e9;"></iconify-icon>
+
+            <iconify-icon icon="ph:x" style="color: #03f1e9;" class="hamburger__close" id="close"></iconify-icon>
+        </nav>
+    </header>
+
+    <main class="main__section">
+
+        <!--==========    INTRO   ==========-->
+        <section class="titles">
+            <h2 class="name__title">Alejandro Isea <br> 
+                <span class="title__green">FrontEnd Developer</span>
+
+                <p class="paragraph___main">
+                    Bienvenidos a mi Portafolio, Podras ver Mis Proyectos Que he Desarrollado Con los conocimientos adquiridos de mis Estudios. 
+                </p>
+
+                <button id="button__cv">
+                    <span class="overlay"></span>
+                    <a href="./curriculumAlejandro.pdf" download="curriculumAlejandro.pdf" target="_blank" class="link___ref">
+                        Descargar CV
+                    </a>
+                
+                    <iconify-icon icon="material-symbols:download" style="color: #000000;"></iconify-icon>
+                </button>
+
+                <div class="socials__container">
+                    <a href="https://www.linkedin.com/in/alejandro-isea-1a285a282/" target="_blank">
+                        <iconify-icon icon="mdi:linkedin" style="color: white;"></iconify-icon>
+                    </a>
+
+                    <a href="https://github.com/AleIsea" target="_blank">
+                        <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                    </a>
+
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                        <iconify-icon icon="mdi:gmail" style="color: white;"></iconify-icon>
+                    </a>
+                </div>
+            </h2>
+        </section>
+
+        <!--==========  ABOUTME  ==========-->
+        <section class="aboutme"  id="aboutme">
+            <div class="container___personal-info">
+                <div class="paragraph__container">
+                    <h2 data-heading="My Journey" class="section_title">ACERCA DE MI</h2>
+                    <p class="paragraph__container paragraph__text">
+                        Soy desarrollador FrontEnd, me gusta crear contenido web, mi meta es aprender multiples tecnologias y desarollar apps con <b>REACT</b>,, aca les muestro en mi portafolio, el resultado de mis estudios en UDEMY, creando proyectos con <b>HTML</b>, <b>CSS</b>, <b>JS</b>, <b>ANGULAR</b>, <b>TYPESCRIPT</b>,<b>REACT</b> <b>NEXT.JS</b>.
+                    </p>
+
+                    <p class="paragraph__container paragraph__text">En el ámbito del desarrollo backend, me destaco en la implementación de lógica de negocios sólida y en la construcción de sistemas escalables y eficientes. He trabajado con tecnologías backend como Node.js, creando API RESTful y utilizando bases de datos como,<b>MySQL</b>,<b>mongoDB</b>, <b>express</b>.</p>
+
+                    <div class="tools__container">
+                        <h3 class="tools__title">Otras herramientas:</h3>
+
+                        <div class="tools__icons">
+                            <div class="tool__icon">
+                                <iconify-icon icon="devicon:git"></iconify-icon>
+                                <p class="paragraph__tool">Git</p>
+                            </div>
+
+                            <div class="tool__icon">
+                                <iconify-icon icon="devicon:figma"></iconify-icon>
+                                <p class="paragraph__tool">Figma</p>
+                            </div>
+                            <div class="tool__icon">
+                                <iconify-icon icon="mdi:github"></iconify-icon>
+                                <p class="paragraph__tool">Github</p>
+                            </div>
+
+                            <div class="tool__icon">
+                                <iconify-icon icon="devicon:gitlab" width="24" height="24"></iconify-icon>
+                                <p class="paragraph__tool">GitLab</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==========CALIFICACION ==========-->
+                <section class="qualification___section" id="education">
+                    <h2 data-heading="My Journey" class="section_title technologies">TECHNOLOGIAS</h2>
+
+                    <div class="qualification_container">       
+                        <div class="education">
+                            <div class="timeline">
+                                <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="vscode-icons:file-type-html"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">HTML</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                                </div>
+
+                                <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="devicon:tailwindcss"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">TAILWIND CSS</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                                </div>
+
+                                <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="logos:css-3"></iconify-icon>
+                            </div>
+                            <div class="circle_dot"></div>
+                            <h3 class="timeline_title">CSS</h3>
+                            <p class="timeline_text">CSS</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>20 de Diciembre - 2022</span>
+                                </div>
+
+                                <div class="timeline_item">
+                            <div class="technologies__icon">
+                                <iconify-icon icon="vscode-icons:file-type-js-official"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <h3 class="timeline_title">JavaScript</h3>
+                            <p class="timeline_text">JAVASCRIPT</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                                </div>
+
+                                <div class="timeline_item">
+                            <div class="technologies__icon">
+                                <iconify-icon icon="logos:mongodb-icon"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">MONGO DB</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education">
+                    <div class="timeline">
+                        <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="logos:react"></iconify-icon>
+                            </div>
+
+                            <a href="#" class="timeline_text">
+                                <div class="circle_dot"></div>
+                                <p class="timeline_text">REACT</p>
+                                <span class="timeline_date"><i class="uil uil-calendar-alt"></i>28 de Junio - 2022</span>
+                            </a>
+                        </div>
+
+                        <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="devicon:angular"></iconify-icon>
+                            </div>
+
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">ANGULAR</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>20 de Diciembre - 2022</span>
+                        </div>
+
+                        <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="vscode-icons:folder-type-node"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">NODE.JS</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                        </div>
+
+                        <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="devicon:express-wordmark" style="color: #fff;"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">EXPRESS</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                        </div>
+
+                        <div class="timeline_item">
+
+                            <div class="technologies__icon">
+                                <iconify-icon icon="skill-icons:mysql-dark"></iconify-icon>
+                            </div>
+                            
+                            <div class="circle_dot"></div>
+                            <p class="timeline_text">MySQL</p>
+                            <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2023 - Present</span>
+                        </div>
+                        
+                    </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!--==========  TRABAJOS  ==========-->
+        <section class="section__work"  id="work">
+            <h2 class="Proyectos">Proyectos</h2>
+            <p class="work__parrafo">en mi portafolio encontrarás una colección de proyectos que destacan mi habilidad para dar vida a experiencias cautivadoras en la interfaz del usuario.</p>
+
+            <div class="grid__container">
+                <article class="article__work">
+                    <a href="https://github.com/AleIsea/coffee" class="a"></a>
+                    
+                        <figure class="figure">
+                          <img src="https://github.com/AleIsea/salinera-Img/blob/main/salinera__design.jpg?raw=true" loading="lazy" class="img">
+                        </figure>
+
+                        <div class="container__overlay__info">
+                            <h2 class="title___overlay">Salinera la Capital S.A</h2>
+                            <div class="paragraph__overlay">Langing Page creada con HTML,CSS,JavaScript , para una Empresa dedicada a la venta de sal, usando funcionalidades como: Onclick funcion, modulos como: acordeon, reseñas, galeria de imagenes </div>
+
+                            <div class="button__overlay">
+                
+                                <button class="button___demo">
+                                    <a href="https://aleisea.github.io/SalineraLaCapital/" target="_blank">
+                                        Ver Demo
+                                    </a>
+
+                                    <iconify-icon icon="mdi:play" style="color: #03f1e9;"></iconify-icon>
+                                </button>
+
+                                <a href="https://github.com/AleIsea/SalineraLaCapital.git" class="github__icon" target="_blank">
+                                    <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                                </a>
+
+                            </div>
+
+                            
+                        </div>
+
+                </article>
+
+                <article class="article__work">
+                    <a href="https://aleisea.github.io/balance-react/" class="a"></a>
+                    
+                        <figure class="figure">
+                          <img src="https://github.com/AleIsea/salinera-Img/blob/main/balance.jpg?raw=true" loading="lazy" class="img">
+                        </figure>
+
+                        <div class="h4">
+                            <div class="container__overlay__info">
+                                <h2 class="title___overlay">Balance de Gastos</h2>
+                                <div class="paragraph__overlay">App para administrar ingresos, gastos, balance y total, creada con React adaptable a dispositivo movil, aplicando conceptos basicos como: componentes, funciones, Global State,App reducer</div>
+
+                                <div class="button__overlay">
+                    
+                                    <button class="button___demo">
+                                        <a href="https://aleisea.github.io/balance-react/" target="_blank">
+                                           Ver Demo
+                                        </a>
+
+                                        <iconify-icon icon="mdi:play" style="color: #03f1e9;"></iconify-icon>
+                                    </button>
+
+                                    <a href="https://github.com/AleIsea/balance__gastos" class="github__icon" target="_blank">
+                                        <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                                    </a>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                </article>
+
+                <article class="article__work">
+                    <a href="https://aleisea.github.io/calculadora/" class="a"></a>
+                    
+                        <figure class="figure">
+                          <img src="https://github.com/AleIsea/salinera-Img/blob/main/calculator__design.jpeg?raw=true" loading="lazy" class="img">
+                        </figure>
+
+                        <div class="h4">
+                            <div class="container__overlay__info">
+                                <h2 class="title___overlay">Calculadora</h2>
+                                <div class="paragraph__overlay">Calculadora App, creada con react, para realizar operaciones matematicas, usando conceptos basicos como: SetData, useState, Funcion eval, GlobalState</div>
+
+                                <div class="button__overlay">
+                    
+                                    <button class="button___demo">
+                                        <a href="https://aleisea.github.io/calculadora/" target="_blank">
+                                            Ver Demo
+                                        </a>
+
+                                        <iconify-icon icon="mdi:play" style="color: #03f1e9;"></iconify-icon>
+                                    </button>
+
+                                    <a href="https://github.com/AleIsea/calculadora" class="github__icon" target="_blank">
+                                        <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                                    </a>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                </article>
+                    
+                <article class="article__work">
+                        <a href="https://github.com/AleIsea/LIFEFOOD" class="a"></a>
+                        
+                            <figure class="figure">
+                              <img src="https://github.com/AleIsea/salinera-Img/blob/main/weather_img.jpeg?raw=true" loading="lazy" class="img">
+                            </figure>
+    
+                            <div class="h4">
+                                <div class="container__overlay__info">
+                                    <h2 class="title___overlay">Weather App</h2>
+                                    <div class="paragraph__overlay">Aplicacion del clima, hecha con react,llamando la API, weatherAPI, podras ver la temperatura de cualquier pais, el % de la Humedad, la velocidad del viento</div>
+    
+                                    <div class="button__overlay">
+                        
+                                        <button class="button___demo">
+                                            <a href="https://aleisea.github.io/weather-app/" target="_blank">
+                                                Ver Demo
+                                            </a>
+    
+                                            <iconify-icon icon="mdi:play" style="color: #03f1e9;"></iconify-icon>
+                                        </button>
+    
+                                        <a href="https://github.com/AleIsea/weather-app" class="github__icon" target="_blank">
+                                            <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                                        </a>
+    
+                                    </div>
+    
+                                    
+                                </div>
+                            </div>
+    
+                </article>
+
+                <article class="article__work">
+                    <a href="https://github.com/AleIsea/LIFEFOOD" class="a"></a>
+                    
+                        <figure class="figure">
+                          <img src="https://github.com/AleIsea/salinera-Img/blob/main/loggin.jpg?raw=true" loading="lazy" class="img">
+                        </figure>
+
+                        <div class="h4">
+                            <div class="container__overlay__info">
+                                <h2 class="title___overlay">Formulario con Firebase</h2>
+                                <div class="paragraph__overlay">Pagina de SALUD Y BIENESTAR Creada en Equipo por Estudiantes de la UADE y Mi Persona</div>
+
+                                <div class="button__overlay">
+                    
+                                    <button class="button___demo">
+                                        <a href="#">
+                                            Ver Demo
+                                        </a>
+
+                                        <iconify-icon icon="mdi:play" style="color: #03f1e9;"></iconify-icon>
+                                    </button>
+
+                                    <a href="https://github.com/AleIsea/LIFEFOOD" class="github__icon" target="_blank">
+                                        <iconify-icon icon="mdi:github" style="color: white;"></iconify-icon>
+                                    </a>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!--==========   FOOTER    ==========-->
+        <footer class="footer" id="footer">
+            <div class="name__footer">Alejandro Isea <br>
+                <span class="name_footer_edit">FrontEnd Developer</span>
+            </div>
+
+            <div class="links__footer">
+                <ul class="links__items">
+                    <li>
+                        <a href="#" class="link___item">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="link___item">Acerca de mi</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="link___item">Proyectos</a>
+                    </li>
+
+                </ul>
+            </div>
+    
+        </footer>
+        
+    </main>
+
+        <!--==========   SCRIPTS GENERALES   ==========-->
+    <script>
+        let buttonHamburguer = document.getElementById('hamburguer');
+        let buttonClose = document.getElementById('close');
+        let NavMenu = document.getElementById('nav__links');
+
+    // button hamburguer open/close 
+        
+        buttonHamburguer.addEventListener('click', function(){
+            NavMenu.classList.toggle('activo');
+        });
+
+
+
+    </script>
+
+    <script src="/portfolio.js"></script>
+    <script src="matrix.js"></script>
+    
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    
+</body>
+</html>
